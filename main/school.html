@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Payment Wallet</title>
+    <link rel="stylesheet" href="/Users/vaishnavisantoshjagdale/Desktop">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>SchoolPay</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#how-it-works">How it Works</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#download">Download App</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Manage Your School Payments Effortlessly</h2>
+        <p>Make secure cashless payments for canteen, fees, and activities. Stay in control of your child's spending.</p>
+        <a href="#download" class="cta-button">Get Started</a>
+    </section>
+
+    <section id="how-it-works">
+        <h2>How It Works</h2>
+        <p>Our app lets you manage school-related payments through a secure and easy-to-use platform.</p>
+        <ol>
+            <li>Parents load money into the student's wallet.</li>
+            <li>Students use the wallet to pay for school activities, canteen, and more.</li>
+            <li>Parents track transactions and set spending limits.</li>
+        </ol>
+    </section>
+
+    <section id="features">
+        <h2>Key Features</h2>
+        <div class="feature">
+            <h3>Prepaid Wallet</h3>
+            <p>Load money into your child's account for school expenses.</p>
+        </div>
+        <div class="feature">
+            <h3>Spending Limits</h3>
+            <p>Set daily or monthly spending limits for different categories like canteen or activities.</p>
+        </div>
+        <div class="feature">
+            <h3>Parental Control</h3>
+            <p>Parents get real-time notifications of transactions and have complete control.</p>
+        </div>
+    </section>
+
+    <section id="download">
+        <h2>Download the App</h2>
+        <p>Available on both Android and iOS. Start managing your child's school expenses today.</p>
+        <a href="https://play.google.com" class="download-button">Download for Android</a>
+        <a href="https://www.apple.com/app-store/" class="download-button">Download for iOS</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need support, feel free to reach out to us!</p>
+        <form>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 SchoolPay. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+<!-- Razorpay Checkout Button -->
+<button id="pay-button" class="cta-button">Pay Now</button>
+
+<!-- Include Razorpay's Checkout Script -->
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+<script src="scripts.js"></script>
+
+</body>
+</html>

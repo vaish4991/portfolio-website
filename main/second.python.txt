@@ -1,0 +1,2 @@
+import tinter as tk
+print(tk.TkVersion)
